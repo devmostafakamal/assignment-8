@@ -1,0 +1,110 @@
+[
+  {
+    "image": "https://randomuser.me/api/portraits/men/32.jpg",
+    "name": "Dr. Arjun Mehta",
+    "education": "MBBS, MD (General Medicine)",
+    "speciality": "Cardiologist",
+    "experience": "12 years",
+    "registrationNumber": "MH123456",
+    "detailsRoute": "/doctors/arjun-mehta"
+  },
+  {
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "name": "Dr. Sneha Kapoor",
+    "education": "MBBS, MS (Gynecology)",
+    "speciality": "Gynecologist",
+    "experience": "9 years",
+    "registrationNumber": "DL987654",
+    "detailsRoute": "/doctors/sneha-kapoor"
+  },
+  {
+    "image": "https://randomuser.me/api/portraits/men/45.jpg",
+    "name": "Dr. Rakesh Nair",
+    "education": "MBBS, MS (Orthopedics)",
+    "speciality": "Orthopedic Surgeon",
+    "experience": "15 years",
+    "registrationNumber": "KA246810",
+    "detailsRoute": "/doctors/rakesh-nair"
+  },
+  {
+    "image": "https://randomuser.me/api/portraits/women/36.jpg",
+    "name": "Dr. Priya Deshmukh",
+    "education": "MBBS, DCH (Pediatrics)",
+    "speciality": "Pediatrician",
+    "experience": "8 years",
+    "registrationNumber": "TN135790",
+    "detailsRoute": "/doctors/priya-deshmukh"
+  },
+  {
+    "image": "https://randomuser.me/api/portraits/men/12.jpg",
+    "name": "Dr. Vikram Shah",
+    "education": "MBBS, MD (Dermatology)",
+    "speciality": "Dermatologist",
+    "experience": "11 years",
+    "registrationNumber": "GJ112233",
+    "detailsRoute": "/doctors/vikram-shah"
+  },
+  {
+    "image": "https://randomuser.me/api/portraits/women/22.jpg",
+    "name": "Dr. Anjali Verma",
+    "education": "MBBS, MS (ENT)",
+    "speciality": "ENT Specialist",
+    "experience": "10 years",
+    "registrationNumber": "UP556677",
+    "detailsRoute": "/doctors/anjali-verma"
+  },
+  {
+    "image": "https://randomuser.me/api/portraits/men/28.jpg",
+    "name": "Dr. Rohit Gupta",
+    "education": "MBBS, DM (Neurology)",
+    "speciality": "Neurologist",
+    "experience": "14 years",
+    "registrationNumber": "RJ667788",
+    "detailsRoute": "/doctors/rohit-gupta"
+  },
+  {
+    "image": "https://randomuser.me/api/portraits/women/47.jpg",
+    "name": "Dr. Kavita Reddy",
+    "education": "MBBS, MS (Ophthalmology)",
+    "speciality": "Ophthalmologist",
+    "experience": "7 years",
+    "registrationNumber": "AP998877",
+    "detailsRoute": "/doctors/kavita-reddy"
+  },
+  {
+    "image": "https://randomuser.me/api/portraits/men/33.jpg",
+    "name": "Dr. Manish Tiwari",
+    "education": "MBBS, MD (Pulmonology)",
+    "speciality": "Pulmonologist",
+    "experience": "13 years",
+    "registrationNumber": "HR112244",
+    "detailsRoute": "/doctors/manish-tiwari"
+  },
+  {
+    "image": "https://randomuser.me/api/portraits/women/50.jpg",
+    "name": "Dr. Neha Joshi",
+    "education": "MBBS, MD (Psychiatry)",
+    "speciality": "Psychiatrist",
+    "experience": "6 years",
+    "registrationNumber": "MP556644",
+    "detailsRoute": "/doctors/neha-joshi"
+  },
+  {
+    "image": "https://randomuser.me/api/portraits/men/15.jpg",
+    "name": "Dr. Sameer Khan",
+    "education": "MBBS, MS (Urology)",
+    "speciality": "Urologist",
+    "experience": "10 years",
+    "registrationNumber": "PB221133",
+    "detailsRoute": "/doctors/sameer-khan"
+  },
+  {
+    "image": "https://randomuser.me/api/portraits/women/19.jpg",
+    "name": "Dr. Ritu Sharma",
+    "education": "MBBS, MD (Radiology)",
+    "speciality": "Radiologist",
+    "experience": "9 years",
+    "registrationNumber": "WB778899",
+    "detailsRoute": "/doctors/ritu-sharma"
+  }
+]

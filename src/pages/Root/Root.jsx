@@ -5,7 +5,7 @@ import Footer from "../../components/Footer/Footer";
 
 function Root() {
   return (
-    <div className="max-w-[1520px] mx-auto">
+    <div className="max-w-[1520px] mx-auto bg-[rgb(239,239,239)]">
       <Navbar></Navbar>
       <Outlet></Outlet>
       <Footer></Footer>
