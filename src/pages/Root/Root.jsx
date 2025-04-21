@@ -5,10 +5,12 @@ import Footer from "../../components/Footer/Footer";
 
 function Root() {
   return (
-    <div className="max-w-[1520px] mx-auto bg-[rgb(239,239,239)]">
-      <Navbar></Navbar>
-      <Outlet></Outlet>
-      <Footer></Footer>
+    <div className="bg-[rgb(239,239,239)]">
+      <div className="max-w-[1520px] mx-auto ">
+        <Navbar></Navbar>
+        <Outlet></Outlet>
+        <Footer></Footer>
+      </div>
     </div>
   );
 }

@@ -1,110 +1,146 @@
 [
   {
-    "image": "https://randomuser.me/api/portraits/men/32.jpg",
+    "id": "doc001",
     "name": "Dr. Arjun Mehta",
-    "education": "MBBS, MD (General Medicine)",
-    "speciality": "Cardiologist",
+    "image": "https://randomuser.me/api/portraits/men/32.jpg",
+    "education": "MBBS, MD (General Medicine), DNB",
+    "speciality": "General Physician",
     "experience": "12 years",
     "registrationNumber": "MH123456",
-    "detailsRoute": "/doctors/arjun-mehta"
+    "workingAt": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+    "availability": ["Monday", "Wednesday", "Friday"],
+    "consultationFee": 500
   },
   {
-    "image": "https://randomuser.me/api/portraits/women/44.jpg",
-    "name": "Dr. Sneha Kapoor",
+    "id": "doc002",
+    "name": "Dr. Nisha Roy",
+    "image": "https://randomuser.me/api/portraits/women/45.jpg",
     "education": "MBBS, MS (Gynecology)",
     "speciality": "Gynecologist",
-    "experience": "9 years",
-    "registrationNumber": "DL987654",
-    "detailsRoute": "/doctors/sneha-kapoor"
+    "experience": "10 years",
+    "registrationNumber": "WB789654",
+    "workingAt": "Apollo Hospitals, Kolkata",
+    "availability": ["Tuesday", "Thursday", "Saturday"],
+    "consultationFee": 700
   },
   {
-    "image": "https://randomuser.me/api/portraits/men/45.jpg",
-    "name": "Dr. Rakesh Nair",
+    "id": "doc003",
+    "name": "Dr. Rahul Verma",
+    "image": "https://randomuser.me/api/portraits/men/55.jpg",
     "education": "MBBS, MS (Orthopedics)",
     "speciality": "Orthopedic Surgeon",
     "experience": "15 years",
-    "registrationNumber": "KA246810",
-    "detailsRoute": "/doctors/rakesh-nair"
+    "registrationNumber": "DL654321",
+    "workingAt": "AIIMS, Delhi",
+    "availability": ["Monday", "Thursday", "Saturday"],
+    "consultationFee": 800
   },
   {
-    "image": "https://randomuser.me/api/portraits/women/36.jpg",
-    "name": "Dr. Priya Deshmukh",
-    "education": "MBBS, DCH (Pediatrics)",
-    "speciality": "Pediatrician",
-    "experience": "8 years",
-    "registrationNumber": "TN135790",
-    "detailsRoute": "/doctors/priya-deshmukh"
-  },
-  {
-    "image": "https://randomuser.me/api/portraits/men/12.jpg",
-    "name": "Dr. Vikram Shah",
+    "id": "doc004",
+    "name": "Dr. Sneha Kapoor",
+    "image": "https://randomuser.me/api/portraits/women/32.jpg",
     "education": "MBBS, MD (Dermatology)",
     "speciality": "Dermatologist",
-    "experience": "11 years",
-    "registrationNumber": "GJ112233",
-    "detailsRoute": "/doctors/vikram-shah"
+    "experience": "8 years",
+    "registrationNumber": "MH987321",
+    "workingAt": "Fortis Hospital, Mumbai",
+    "availability": ["Wednesday", "Friday", "Sunday"],
+    "consultationFee": 600
   },
   {
-    "image": "https://randomuser.me/api/portraits/women/22.jpg",
-    "name": "Dr. Anjali Verma",
+    "id": "doc005",
+    "name": "Dr. Aman Sharma",
+    "image": "https://randomuser.me/api/portraits/men/21.jpg",
+    "education": "MBBS, MD (Pediatrics)",
+    "speciality": "Pediatrician",
+    "experience": "9 years",
+    "registrationNumber": "PB453627",
+    "workingAt": "Max Hospital, Chandigarh",
+    "availability": ["Monday", "Tuesday", "Friday"],
+    "consultationFee": 550
+  },
+  {
+    "id": "doc006",
+    "name": "Dr. Riya Dutta",
+    "image": "https://randomuser.me/api/portraits/women/68.jpg",
+    "education": "MBBS, MD (Psychiatry)",
+    "speciality": "Psychiatrist",
+    "experience": "11 years",
+    "registrationNumber": "UP786432",
+    "workingAt": "Mind Care Clinic, Lucknow",
+    "availability": ["Tuesday", "Thursday", "Saturday"],
+    "consultationFee": 750
+  },
+  {
+    "id": "doc007",
+    "name": "Dr. Karan Singh",
+    "image": "https://randomuser.me/api/portraits/men/76.jpg",
     "education": "MBBS, MS (ENT)",
     "speciality": "ENT Specialist",
-    "experience": "10 years",
-    "registrationNumber": "UP556677",
-    "detailsRoute": "/doctors/anjali-verma"
+    "experience": "13 years",
+    "registrationNumber": "RJ123789",
+    "workingAt": "Jaipur ENT Centre, Jaipur",
+    "availability": ["Monday", "Wednesday", "Saturday"],
+    "consultationFee": 650
   },
   {
-    "image": "https://randomuser.me/api/portraits/men/28.jpg",
-    "name": "Dr. Rohit Gupta",
-    "education": "MBBS, DM (Neurology)",
+    "id": "doc008",
+    "name": "Dr. Meera Patel",
+    "image": "https://randomuser.me/api/portraits/women/12.jpg",
+    "education": "MBBS, MD (Neurology)",
     "speciality": "Neurologist",
     "experience": "14 years",
-    "registrationNumber": "RJ667788",
-    "detailsRoute": "/doctors/rohit-gupta"
+    "registrationNumber": "GJ741852",
+    "workingAt": "NeuroLife Hospital, Ahmedabad",
+    "availability": ["Tuesday", "Thursday", "Friday"],
+    "consultationFee": 900
   },
   {
-    "image": "https://randomuser.me/api/portraits/women/47.jpg",
-    "name": "Dr. Kavita Reddy",
+    "id": "doc009",
+    "name": "Dr. Aniket Reddy",
+    "image": "https://randomuser.me/api/portraits/men/41.jpg",
+    "education": "MBBS, DM (Cardiology)",
+    "speciality": "Cardiologist",
+    "experience": "16 years",
+    "registrationNumber": "TS951753",
+    "workingAt": "Heartline Hospital, Hyderabad",
+    "availability": ["Monday", "Wednesday", "Friday"],
+    "consultationFee": 1000
+  },
+  {
+    "id": "doc010",
+    "name": "Dr. Priya Nair",
+    "image": "https://randomuser.me/api/portraits/women/36.jpg",
     "education": "MBBS, MS (Ophthalmology)",
     "speciality": "Ophthalmologist",
     "experience": "7 years",
-    "registrationNumber": "AP998877",
-    "detailsRoute": "/doctors/kavita-reddy"
+    "registrationNumber": "KL123456",
+    "workingAt": "Vision Care Centre, Kochi",
+    "availability": ["Tuesday", "Thursday", "Saturday"],
+    "consultationFee": 500
   },
   {
-    "image": "https://randomuser.me/api/portraits/men/33.jpg",
-    "name": "Dr. Manish Tiwari",
-    "education": "MBBS, MD (Pulmonology)",
-    "speciality": "Pulmonologist",
-    "experience": "13 years",
-    "registrationNumber": "HR112244",
-    "detailsRoute": "/doctors/manish-tiwari"
-  },
-  {
-    "image": "https://randomuser.me/api/portraits/women/50.jpg",
-    "name": "Dr. Neha Joshi",
-    "education": "MBBS, MD (Psychiatry)",
-    "speciality": "Psychiatrist",
-    "experience": "6 years",
-    "registrationNumber": "MP556644",
-    "detailsRoute": "/doctors/neha-joshi"
-  },
-  {
-    "image": "https://randomuser.me/api/portraits/men/15.jpg",
-    "name": "Dr. Sameer Khan",
-    "education": "MBBS, MS (Urology)",
+    "id": "doc011",
+    "name": "Dr. Manav Desai",
+    "image": "https://randomuser.me/api/portraits/men/64.jpg",
+    "education": "MBBS, MCh (Urology)",
     "speciality": "Urologist",
-    "experience": "10 years",
-    "registrationNumber": "PB221133",
-    "detailsRoute": "/doctors/sameer-khan"
+    "experience": "18 years",
+    "registrationNumber": "GJ456321",
+    "workingAt": "UroPlus Clinic, Surat",
+    "availability": ["Monday", "Wednesday", "Friday"],
+    "consultationFee": 850
   },
   {
-    "image": "https://randomuser.me/api/portraits/women/19.jpg",
-    "name": "Dr. Ritu Sharma",
-    "education": "MBBS, MD (Radiology)",
-    "speciality": "Radiologist",
-    "experience": "9 years",
-    "registrationNumber": "WB778899",
-    "detailsRoute": "/doctors/ritu-sharma"
+    "id": "doc012",
+    "name": "Dr. Shalini Iyer",
+    "image": "https://randomuser.me/api/portraits/women/84.jpg",
+    "education": "MBBS, MD (Endocrinology)",
+    "speciality": "Endocrinologist",
+    "experience": "10 years",
+    "registrationNumber": "TN654987",
+    "workingAt": "SugarCare Hospital, Chennai",
+    "availability": ["Wednesday", "Friday", "Sunday"],
+    "consultationFee": 700
   }
 ]

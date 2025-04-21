@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router";
 
 function DoctorCard({ doctor }) {
-  console.log(doctor);
+  // console.log(doctor);
   const { image, experience, education, registrationNumber, name } = doctor;
   return (
     <div>
@@ -25,7 +25,7 @@ function DoctorCard({ doctor }) {
           <p>Reg No:{registrationNumber}</p>
         </div>
         <div className="w-full text-center">
-          <Link to="/doctorDetails">
+          <Link to={`/doctorDetails/${registrationNumber}`}>
             <button className="px-12 py-2 border rounded-4xl text-[#176AE5]">
               View Details
             </button>
