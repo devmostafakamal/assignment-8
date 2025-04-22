@@ -1,8 +1,7 @@
 import React from "react";
 import { Link, useLoaderData, useParams } from "react-router";
 import { useNavigate } from "react-router";
-import { toast, ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import { toast } from "react-toastify";
 
 function DoctorDetails() {
   const data = useLoaderData();
@@ -55,20 +54,13 @@ function DoctorDetails() {
 
     const updated = [...existing, singleDoctor];
     localStorage.setItem("appointments", JSON.stringify(updated));
-    toast.success("remove to favorites!", {
-      position: "top-right",
-      autoClose: 2000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-    });
+    toast.success(`Appionment shedule for ${name} successfully!`);
+
     setTimeout(() => navigate("/myBookings"), 1500); // wait for toast
   };
   return (
     <div>
-      <div className="px-40 py-[72px] bg-[#FFFFFF] shadow-md rounded-2xl text-center mt-10">
+      <div className="px-40 py-[72px] bg-[#FFFFFF] shadow-md rounded-2xl text-center mt-10 ">
         <h2 className="text-2xl font-semibold mb-4">
           Doctor’s Profile Details
         </h2>
@@ -80,9 +72,9 @@ function DoctorDetails() {
           make informed healthcare decisions.
         </p>
       </div>
-      <div className="flex items-center justify-center gap-4 px-6 py-16 bg-[#FFFFFF] rounded-2xl mt-5">
+      <div className="flex items-center justify-center  px-6 py-16 bg-[#FFFFFF] rounded-2xl mt-5 gap-8">
         <div>
-          <img src={image} width="full" alt="" />
+          <img src={image} width={320} alt="" />
         </div>
         <div>
           <h2 className="text-3xl font-bold text-[#0F0F0F]">{name}</h2>

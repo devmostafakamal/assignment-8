@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
+import { toast } from "react-toastify";
 
 function MyBookings() {
   const [appointments, setAppointments] = useState([]);
@@ -16,6 +17,7 @@ function MyBookings() {
     );
     localStorage.setItem("appointments", JSON.stringify(updated));
     setAppointments(updated);
+    toast.error("Cencel appionment");
   };
 
   if (appointments.length === 0) {
