@@ -3,12 +3,12 @@ import React from "react";
 function Banner() {
   return (
     <>
-      <div className="bg-[#FFFFFF] border rounded py-16 px-40">
+      <div className="bg-[#FFFFFF]  rounded-2xl py-16 px-40 mt-4">
         <div className="">
           <h2 className="text-5xl font-bold text-center">
             Dependable Care, Backed by Trusted <br /> Professionals.
           </h2>
-          <p className="mt-4 text-[#0F0F0F] text-center">
+          <p className="mt-4 text-[#0F0F0F] text-center hidden md:flex">
             Our platform connects you with verified, experienced doctors across
             various specialties — all at your convenience. Whether it's a <br />{" "}
             routine checkup or urgent consultation, book appointments in minutes

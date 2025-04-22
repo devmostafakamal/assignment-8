@@ -31,7 +31,7 @@ function DoctorsContainer({ doctors }) {
         </div>
         <div className="text-center">
           <button
-            className="bg-[#176AE5] border rounded-4xl px-4 py-2 text-white"
+            className="bg-[#176AE5] border rounded-4xl px-4 py-2 text-white mt-4"
             onClick={() => setViewAll((prev) => !prev)}
           >
             View All doctors

@@ -10,7 +10,7 @@ function Navbar() {
           <h2 className="text-3xl text-[#0F0F0F] font-bold">Phudu</h2>
         </div>
         <div>
-          <ul className="flex items-center justify-center gap-4">
+          <ul className="md:flex items-center justify-center hidden gap-4">
             <li>
               <NavLink
                 to="/"

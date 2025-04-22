@@ -1,18 +1,71 @@
 import React from "react";
-import { useLoaderData, useParams } from "react-router";
+import { Link, useLoaderData, useParams } from "react-router";
+import { useNavigate } from "react-router";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function DoctorDetails() {
   const data = useLoaderData();
   const { registrationNumber } = useParams();
+  const navigate = useNavigate();
   const singleDoctor = data.find(
     (doctor) => doctor.registrationNumber === registrationNumber
   );
-  console.log(singleDoctor);
+  // console.log(singleDoctor);
   if (!singleDoctor) {
-    return <div>doctor not found.</div>;
+    return (
+      <>
+        <div className=" rounded-2xl mt-10 bg-[#FFFFFF]">
+          <div className="text-center mt-10 ">
+            <h3 className="text-2xl font-bold mt-3">No Doctor Found</h3>
+            <p className="mt-4">No doctor found with this registrationNumber</p>
+            <p className="text-xl mt-5">{registrationNumber}.</p>
+            <button
+              onClick={() => navigate("/")}
+              className=" px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 mt-10 mb-2"
+            >
+              View All Doctors
+            </button>
+          </div>
+        </div>
+      </>
+    );
   }
-  const { name, image, education, workingAt, availability, consultationFee } =
-    singleDoctor;
+  const {
+    name,
+    image,
+    education,
+    workingAt,
+    availability,
+    consultationFee,
+    registrationNumber: id,
+  } = singleDoctor;
+
+  const handleBookAppointment = () => {
+    const existing = JSON.parse(localStorage.getItem("appointments")) || [];
+
+    const isAlreadyBooked = existing.some(
+      (doc) => doc.registrationNumber === id
+    );
+
+    if (isAlreadyBooked) {
+      toast.error("You've already booked an appointment with this doctor.");
+      return;
+    }
+
+    const updated = [...existing, singleDoctor];
+    localStorage.setItem("appointments", JSON.stringify(updated));
+    toast.success("remove to favorites!", {
+      position: "top-right",
+      autoClose: 2000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
+    setTimeout(() => navigate("/myBookings"), 1500); // wait for toast
+  };
   return (
     <div>
       <div className="px-40 py-[72px] bg-[#FFFFFF] shadow-md rounded-2xl text-center mt-10">
@@ -38,8 +91,11 @@ function DoctorDetails() {
           <p className="mt-4 font-semi-bold text-2xl text-[#0F0F0F]">
             {workingAt}
           </p>
-          <h3 className="mt-8">Reg No.{registrationNumber}</h3>
-          <div className=" flex gap-5 items-center justify-center mt-9">
+          <h3 className="mt-8 border-b border-dashed border-t ">
+            Reg No.{registrationNumber}
+          </h3>
+
+          <div className=" flex gap-5 items-center justify-center mt-9 ">
             <h2>Availability</h2>
             <ul className="flex gap-4 ">
               {availability.map((day, index) => (
@@ -78,9 +134,14 @@ function DoctorDetails() {
           </div>
 
           <div className="px-14 mt-12">
-            <button className="w-[80%] border rounded-4xl text-white px-4 py-2 bg-[#176AE5]">
-              Book Appointment Now
-            </button>
+            <Link to="/myBookings">
+              <button
+                onClick={handleBookAppointment}
+                className="w-[80%] border rounded-4xl text-white px-4 py-2 bg-[#176AE5]"
+              >
+                Book Appointment Now
+              </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -7,10 +7,10 @@ function DoctorCard({ doctor }) {
   return (
     <div>
       <div className="card rounded-2xl shadow-sm p-4 flex items-center justify-center bg-[#FFFFFF]">
-        <div className="flex items-center justify-center">
-          <img src={image} alt="doctor" />
+        <div className="flex items-center justify-center ">
+          <img width={280} src={image} alt="doctor" />
         </div>
-        <div className=" flex gap-2">
+        <div className=" flex gap-2 mt-2">
           <button className="px-2 py-1 border rounded-2xl text-[#09982F] bg-[rgba(9,152,47,0.1)]">
             Available
           </button>
@@ -19,14 +19,14 @@ function DoctorCard({ doctor }) {
           </button>
         </div>
 
-        <div className="card-body">
+        <div className="card-body !text-left">
           <h2 className="card-title">{name}</h2>
           <p>{education}</p>
           <p>Reg No:{registrationNumber}</p>
         </div>
         <div className="w-full text-center">
           <Link to={`/doctorDetails/${registrationNumber}`}>
-            <button className="px-12 py-2 border rounded-4xl text-[#176AE5]">
+            <button className="w-[80%] py-2 border rounded-4xl text-[#176AE5]">
               View Details
             </button>
           </Link>
