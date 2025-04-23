@@ -2,7 +2,7 @@
   {
     "id": "doc001",
     "name": "Dr. Arjun Mehta",
-    "image": "https://i.ibb.co.com/LDzfpMp0/Arjun-mehta.jpg",
+    "image": "/assets/Arjun-mehta.jpg",
     "education": "MBBS, MD (General Medicine), DNB",
     "speciality": "General Physician",
     "experience": "12 years",
@@ -14,7 +14,7 @@
   {
     "id": "doc002",
     "name": "Dr. Nisha Roy",
-    "image": "https://i.ibb.co.com/twtCbP6p/Nisha-roy.jpg",
+    "image": "/assets/Nisha-roy.jpg",
     "education": "MBBS, MS (Gynecology)",
     "speciality": "Gynecologist",
     "experience": "10 years",
@@ -26,7 +26,7 @@
   {
     "id": "doc003",
     "name": "Dr. Rahul Verma",
-    "image": "https://i.ibb.co.com/pvp8b4Sp/Rahul-varma.jpg",
+    "image": "/assets/Rahul-varma.jpg",
     "education": "MBBS, MS (Orthopedics)",
     "speciality": "Orthopedic Surgeon",
     "experience": "15 years",
@@ -38,7 +38,7 @@
   {
     "id": "doc004",
     "name": "Dr. Sneha Kapoor",
-    "image": "https://i.ibb.co.com/MD2QL4hn/Sneha-kapoor.jpg",
+    "image": "/assets/Sneha-kapoor.jpg",
     "education": "MBBS, MD (Dermatology)",
     "speciality": "Dermatologist",
     "experience": "8 years",
@@ -50,7 +50,7 @@
   {
     "id": "doc005",
     "name": "Dr. Aman Sharma",
-    "image": "https://i.ibb.co.com/bMCNQMBf/Riya-dutta.jpg",
+    "image": "/assets/Riya-dutta.jpg",
     "education": "MBBS, MD (Pediatrics)",
     "speciality": "Pediatrician",
     "experience": "9 years",
@@ -62,7 +62,7 @@
   {
     "id": "doc006",
     "name": "Dr. Riya Dutta",
-    "image": "https://i.ibb.co.com/4Z2s1QCQ/karan-sing.jpg",
+    "image": "/assets/karan-sing.jpg",
     "education": "MBBS, MD (Psychiatry)",
     "speciality": "Psychiatrist",
     "experience": "11 years",
@@ -74,7 +74,7 @@
   {
     "id": "doc007",
     "name": "Dr. Karan Singh",
-    "image": "https://i.ibb.co.com/N2X6HXyj/Meera-patel.jpg",
+    "image": "/assets/Meera-patel.jpg",
     "education": "MBBS, MS (ENT)",
     "speciality": "ENT Specialist",
     "experience": "13 years",
@@ -86,7 +86,7 @@
   {
     "id": "doc008",
     "name": "Dr. Meera Patel",
-    "image": "https://i.ibb.co.com/vvv2Tkvq/Aniket-reddy.jpg",
+    "image": "/assets/Aniket-reddy.jpg",
     "education": "MBBS, MD (Neurology)",
     "speciality": "Neurologist",
     "experience": "14 years",
@@ -98,7 +98,7 @@
   {
     "id": "doc009",
     "name": "Dr. Aniket Reddy",
-    "image": "https://i.ibb.co.com/mVZTCyZ1/Priya-Nair.jpg",
+    "image": "/assets/Priya-Nair.jpg",
     "education": "MBBS, DM (Cardiology)",
     "speciality": "Cardiologist",
     "experience": "16 years",
@@ -110,7 +110,7 @@
   {
     "id": "doc010",
     "name": "Dr. Priya Nair",
-    "image": "https://i.ibb.co.com/DH20pVWD/Shalini.jpg",
+    "image": "/assets/Shalini.jpg",
     "education": "MBBS, MS (Ophthalmology)",
     "speciality": "Ophthalmologist",
     "experience": "7 years",
@@ -122,7 +122,7 @@
   {
     "id": "doc011",
     "name": "Dr. Manav Desai",
-    "image": "https://randomuser.me/api/portraits/men/64.jpg",
+    "image": "/assets/Aman-sharma.jpg",
     "education": "MBBS, MCh (Urology)",
     "speciality": "Urologist",
     "experience": "18 years",
