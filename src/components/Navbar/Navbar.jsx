@@ -49,7 +49,7 @@ function Navbar() {
           </ul>
         </div>
         <div>
-          <button className="bg-[#176AE5] border rounded-3xl text-white px-5 py-2">
+          <button className="bg-[#176AE5] border rounded-3xl text-white md:px-5 md:py-2 p-2">
             Emergency
           </button>
         </div>

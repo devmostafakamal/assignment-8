@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router";
 
 function ContactUs() {
+  const navigate = useNavigate();
   return (
     <div>
       <div>
@@ -15,6 +17,13 @@ function ContactUs() {
             4O4 - Page not found
           </h1>
           <p>Oops! the you're looking for dosen't exixt.</p>
+
+          <button
+            onClick={() => navigate("/")}
+            className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition"
+          >
+            Go to Homepage
+          </button>
         </div>
       </div>
     </div>

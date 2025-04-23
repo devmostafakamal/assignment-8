@@ -3,7 +3,7 @@ import React from "react";
 function Banner() {
   return (
     <>
-      <div className="bg-[#FFFFFF]  rounded-2xl py-16 px-40 mt-4">
+      <div className="bg-[#FFFFFF]  rounded-2xl md:py-16 md:px-40 p-0 mt-4">
         <div className="">
           <h2 className="text-5xl font-bold md:text-center text-left hidden md:flex">
             Dependable Care, Backed by Trusted <br /> Professionals.
@@ -20,15 +20,15 @@ function Banner() {
             type="text"
             name=""
             id=""
-            className="bg-white border border-gray-200 focus:outline-none focus:shadow-outline md:w-[60%]   py-2 shadow-md broder rounded-3xl px-2"
+            className="bg-white border border-gray-200 focus:outline-none focus:shadow-outline md:w-[60%] py-2 shadow-md broder rounded-3xl px-2"
             placeholder="search any doctor..."
           />
-          <button className="bg-[#176AE5] border md:rounded-3xl text-white md:px-5 md:py-2 px-10  rounded-xl">
+          <button className="bg-[#176AE5] border md:rounded-3xl text-white md:px-5 md:py-2 px-10 py-2  rounded-xl">
             {" "}
             Search Now
           </button>
         </div>
-        <div className="md:flex md:flex-row items-center justify-center md:gap-4 gap-5 mt-6 flex-col">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-5 md:gap-4 mt-6">
           <img src="/assets/banner-img-1.png" alt="" />
           <img src="/assets/banner-img-1.png" alt="" />
         </div>

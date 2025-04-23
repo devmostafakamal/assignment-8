@@ -7,6 +7,7 @@ import { ToastContainer } from "react-toastify";
 function Root() {
   const navigation = useNavigation();
   const isLoading = navigation.state === "loading";
+  const isContactPage = location.pathname === "/contactUs";
 
   return (
     <>
@@ -21,7 +22,7 @@ function Root() {
         <div className="max-w-[1520px] mx-auto ">
           <Navbar />
           <Outlet />
-          <Footer />
+          {!isContactPage && <Footer></Footer>}
         </div>
       </div>
     </>
